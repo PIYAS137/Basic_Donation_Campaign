@@ -1,0 +1,9 @@
+nav .active{
+    color:#ff444a;
+    text-decoration: underline;
+}
+.bgx{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
