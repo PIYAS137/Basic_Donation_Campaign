@@ -19,10 +19,16 @@ const router = createBrowserRouter([
       {
         path:'/',
         element:<Home/>
-      },{
+      },
+      {
         path:'/donation',
         element:<Donation/>
-      },{
+      },
+      {
+        path:'/donation/:id',
+        element:<ViewDetails/>
+      },
+      {
         path:'/statistics',
         element:<Statistics/>
       },{
