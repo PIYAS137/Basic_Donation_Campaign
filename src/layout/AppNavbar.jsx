@@ -1,13 +1,18 @@
-import { NavLink } from "react-router-dom"
+import { NavLink, useNavigate } from "react-router-dom"
 import '../App'
 
 const AppNavbar = () => {
+    const navigate=useNavigate()
+    const handleClick=()=>{
+        navigate('/')
+    }
+
     return (
 
         <div className=" bgx" style={{ backgroundImage: `url('https://i.ibb.co/hssyLX9/Clothing-half-trans.png')` }}>
             <div className="max-w-[1300px] mx-auto">
                 <div className=" py-6 flex justify-between items-center">
-                    <img src='https://i.ibb.co/vhwYd6P/Logo.png' alt="" />
+                    <img className=" cursor-pointer" onClick={handleClick} src='https://i.ibb.co/vhwYd6P/Logo.png' alt="" />
                     <nav className=" space-x-8 text-lg font-semibold">
                         <NavLink to='/'>Home</NavLink>
                         <NavLink to='/donation'>Donation</NavLink>

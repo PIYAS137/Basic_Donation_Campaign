@@ -1,10 +1,10 @@
 import React from 'react'
 import DonateCard from './DonateCard'
 
-const DonateCards = ({donate}) => {
+const DonateCards = ({donate,len}) => {
   return (
     <React.Fragment>
-        {donate.map((one)=><DonateCard key={one.id} data={one}/>)}
+        {donate.slice(0,len).map((one)=><DonateCard key={one.id} data={one}/>)}
     </React.Fragment>
   )
 }
