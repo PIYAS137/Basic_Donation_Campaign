@@ -7,6 +7,7 @@ export const MyDatas=[
         "image": "https://i.ibb.co/qp42P61/Rectangle-4284.png",
         "backgroundColor": "bg-blue-100",
         "textColor": "text-blue-600",
+        "btnColor": "bg-blue-600",
         "titleBgColor": "bg-blue-300",
         "price": "200",
         "category": "Health"
@@ -18,6 +19,7 @@ export const MyDatas=[
         "image": "https://i.ibb.co/KXrT27b/Clothing.png",
         "backgroundColor": "bg-green-100",
         "textColor": "text-green-600",
+        "btnColor": "bg-green-600",
         "titleBgColor": "bg-green-200",
         "price": "150",
         "category": "Clothing"
@@ -29,6 +31,7 @@ export const MyDatas=[
         "image": "https://i.ibb.co/883hqTk/Food.png",
         "backgroundColor": "bg-orange-100",
         "textColor": "text-orange-600",
+        "btnColor": "bg-orange-600",
         "titleBgColor": "bg-orange-300",
         "price": "170",
         "category": "Food"
@@ -40,17 +43,7 @@ export const MyDatas=[
         "image": "https://i.ibb.co/prLTBck/Education.png",
         "backgroundColor": "bg-red-100",
         "textColor": "text-red-600",
-        "titleBgColor": "bg-red-300",
-        "price": "190",
-        "category": "Education"
-    },
-    {
-        "id": 6,
-        "title": "Good Education",
-        "description": "Support our global initiative for quality education worldwide by making a donation today. Your contribution will help us provide access to quality education, resources, and opportunities to children in underserved communities worldwide. With your help, we can break down barriers to learning, empower future generations, and create a more equitable world. Join us in ensuring that every child, regardless of their background, has the chance to receive a good education and reach their full potential. Together, we can build a brighter and more educated future for all.",
-        "image": "https://i.ibb.co/prLTBck/Education.png",
-        "backgroundColor": "bg-red-100",
-        "textColor": "text-red-600",
+        "btnColor": "bg-red-600",
         "titleBgColor": "bg-red-300",
         "price": "190",
         "category": "Education"
@@ -63,9 +56,22 @@ export const MyDatas=[
         "image": "https://i.ibb.co/qp42P61/Rectangle-4284.png",
         "backgroundColor": "bg-blue-100",
         "textColor": "text-blue-600",
+        "btnColor": "bg-blue-600",
         "titleBgColor": "bg-blue-300",
         "price": "200",
         "category": "Health"
+    },
+    {
+        "id": 6,
+        "title": "Good Education",
+        "description": "Support our global initiative for quality education worldwide by making a donation today. Your contribution will help us provide access to quality education, resources, and opportunities to children in underserved communities worldwide. With your help, we can break down barriers to learning, empower future generations, and create a more equitable world. Join us in ensuring that every child, regardless of their background, has the chance to receive a good education and reach their full potential. Together, we can build a brighter and more educated future for all.",
+        "image": "https://i.ibb.co/prLTBck/Education.png",
+        "backgroundColor": "bg-red-100",
+        "textColor": "text-red-600",
+        "btnColor": "bg-red-600",
+        "titleBgColor": "bg-red-300",
+        "price": "190",
+        "category": "Education"
     },
     {
         "id": 7,
@@ -74,6 +80,7 @@ export const MyDatas=[
         "image": "https://i.ibb.co/KXrT27b/Clothing.png",
         "backgroundColor": "bg-green-100",
         "textColor": "text-green-600",
+        "btnColor": "bg-green-600",
         "titleBgColor": "bg-green-200",
         "price": "150",
         "category": "Clothing"
@@ -85,6 +92,7 @@ export const MyDatas=[
         "image": "https://i.ibb.co/883hqTk/Food.png",
         "backgroundColor": "bg-orange-100",
         "textColor": "text-orange-600",
+        "btnColor": "bg-orange-600",
         "titleBgColor": "bg-orange-300",
         "price": "170",
         "category": "Food"
@@ -97,6 +105,7 @@ export const MyDatas=[
         "image": "https://i.ibb.co/qp42P61/Rectangle-4284.png",
         "backgroundColor": "bg-blue-100",
         "textColor": "text-blue-600",
+        "btnColor": "bg-blue-600",
         "titleBgColor": "bg-blue-300",
         "price": "200",
         "category": "Health"
@@ -108,6 +117,7 @@ export const MyDatas=[
         "image": "https://i.ibb.co/prLTBck/Education.png",
         "backgroundColor": "bg-red-100",
         "textColor": "text-red-600",
+        "btnColor": "bg-red-600",
         "titleBgColor": "bg-red-300",
         "price": "190",
         "category": "Education"
@@ -119,6 +129,7 @@ export const MyDatas=[
         "image": "https://i.ibb.co/KXrT27b/Clothing.png",
         "backgroundColor": "bg-green-100",
         "textColor": "text-green-600",
+        "btnColor": "bg-green-600",
         "titleBgColor": "bg-green-200",
         "price": "150",
         "category": "Clothing"
@@ -130,6 +141,7 @@ export const MyDatas=[
         "image": "https://i.ibb.co/883hqTk/Food.png",
         "backgroundColor": "bg-orange-100",
         "textColor": "text-orange-600",
+        "btnColor": "bg-orange-600",
         "titleBgColor": "bg-orange-300",
         "price": "170",
         "category": "Food"
