@@ -17,7 +17,7 @@ const ViewDetails = () => {
             </div>
         </div>
         <h1  className="text-3xl font-bold mb-5">{oneItem.title}</h1>
-        <p>{oneItem.description}</p>
+        <p className=" text-justify">{oneItem.description}</p>
     </div>
   )
 }
