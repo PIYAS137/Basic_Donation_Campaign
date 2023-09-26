@@ -13,8 +13,6 @@ const ViewDetails = () => {
     const [toastStatus, setToastStatus] = useState(false)
     const navigate = useNavigate()
 
-
-
     const handleClickDonate = (val) => {
         const status = donate.find((one) => one.id == val.id)
         if (!status) {
@@ -30,8 +28,6 @@ const ViewDetails = () => {
     const handleGoBack = () => {
         navigate(-1)
     }
-
-
 
     const param = useParams()
     const oneItem = datas.find(one => one.id === parseInt(param.id))

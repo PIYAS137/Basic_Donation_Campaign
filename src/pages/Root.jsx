@@ -13,11 +13,9 @@ const Root = () => {
   return (
     <div>
       <DonateCardComponent.Provider value={{donate,setDonate,searchText,setSearchText,submitStatus,setSubmitStatus}}>
-
         <AppNavbar />
         <Outlet></Outlet>
       </DonateCardComponent.Provider>
-
     </div>
   )
 }

@@ -4,7 +4,7 @@ import { DonateCardComponent } from '../context/cardContext';
 import { MyDatas } from '../database/Datas';
 
 export const Statistics = () => {
-  const { donate, setDonate } = useContext(DonateCardComponent);
+  const { donate } = useContext(DonateCardComponent);
   const [finalDatas, setFinalDatas] = useState(MyDatas);
 
   const myPercentage = (donate.length / finalDatas.length) * 100;

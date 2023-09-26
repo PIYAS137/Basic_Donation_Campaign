@@ -3,7 +3,7 @@ import { DonateCardComponent } from "../context/cardContext";
 import DonateCards from "../components/donateCards/DonateCards";
 
 export const Donation = () => {
-  const { donate, setDonate } = useContext(DonateCardComponent)
+  const { donate } = useContext(DonateCardComponent)
   const [count, setCount] = useState(4)
   const [seeButton, setSeeButton] = useState(false)
 
@@ -25,7 +25,7 @@ export const Donation = () => {
         <DonateCards len={count} donate={donate} />
       </div>
       {donate.length == 0 && <div className="text-center bg-red-300 text-xl p-3 rounded-xl">
-        <h1 className="text-red-600">You haven't donated anything yet</h1>
+        <h1 className="text-red-600">You have not donated anything yet</h1>
       </div>}
 
       <div className="w-full flex justify-center">

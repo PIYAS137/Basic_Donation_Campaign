@@ -7,13 +7,14 @@ import Home from './pages/Home'
 import { Donation } from './pages/Donation'
 import { Statistics } from './pages/Statistics'
 import ViewDetails from './pages/ViewDetails'
+import { Error } from './pages/Error'
 
 
 const router = createBrowserRouter([
   {
     path:'/',
     element:<Root/>,
-    // errorElement:<Error/>,
+    errorElement:<Error/>,
     children:[
       {
         path:'/',
