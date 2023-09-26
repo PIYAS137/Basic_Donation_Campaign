@@ -7,7 +7,6 @@ import Home from './pages/Home'
 import { Donation } from './pages/Donation'
 import { Statistics } from './pages/Statistics'
 import ViewDetails from './pages/ViewDetails'
-import { MyDatas } from './database/Datas'
 
 
 const router = createBrowserRouter([

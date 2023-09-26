@@ -17,7 +17,7 @@ export const Statistics = () => {
   const COLORS = ['#ff2323', '#10c6a8'];
 
   return (
-    <div className="max-w-[1300px] mx-auto flex flex-col items-center">
+    <div className="max-w-[1300px] overflow-hidden mx-auto flex flex-col items-center">
       <PieChart width={800} height={400}>
         <Pie
           dataKey="value"
@@ -37,10 +37,15 @@ export const Statistics = () => {
       </PieChart>
       <div className='flex-col flex md:flex-row justify-center md:space-x-10'>
         <p className='flex text-lg items-center'><span className='w-10 rounded-lg h-5 mr-2 bg-[#ff2323] block'>
-          </span> Total Donation : <span className='ml-1'> {totalPercentage.toFixed(1)} %</span></p>
+        </span> Total Donation : <span className='ml-1'> {totalPercentage.toFixed(1)} %</span></p>
         <p className='flex text-lg items-center'><span className='w-10 rounded-lg h-5 mr-2 bg-[#10c6a8] block'>
-          </span> Your Donation : <span className='ml-1'> {myPercentage.toFixed(1)} %</span> </p>
+        </span> Your Donation : <span className='ml-1'> {myPercentage.toFixed(1)} %</span> </p>
+        
+
       </div>
+      {/* comment--------------------> */}
+      <small className='text-[12px] mt-10'><span className='text-red-600 text-xl font-bold'>*</span>This graph not support toFixed() method during initialize the state value ,<br /> which value will be the value of pie chart data's value</small>
+        {/* comment--------------------> */}
     </div>
   );
 };

@@ -21,11 +21,11 @@ export const Donation = () => {
 
   return (
     <div className="max-w-[1300px] mx-auto">
-      <div className=" grid grid-cols-1 p-2 md:p-0 md:grid-cols-2 my-10 gap-5">
+      <div className=" grid grid-cols-1 p-2 lg:p-0 md:grid-cols-2 my-10 gap-5">
         <DonateCards len={count} donate={donate} />
       </div>
-      {donate.length == 0 && <div className="text-center bg-red-300 text-xl text-white p-3 rounded-xl">
-        <h1>You till donate anything</h1>
+      {donate.length == 0 && <div className="text-center bg-red-300 text-xl p-3 rounded-xl">
+        <h1 className="text-red-600">You haven't donated anything yet</h1>
       </div>}
 
       <div className="w-full flex justify-center">

@@ -34,11 +34,10 @@ const ViewDetails = () => {
 
 
     const param = useParams()
-
     const oneItem = datas.find(one => one.id === parseInt(param.id))
 
     return (
-        <div className="max-w-[1300px] mx-auto">
+        <div className="max-w-[1300px] mx-auto p-2 md:p-0">
             {toastStatus && <div className=" bg-green-600 rounded-xl text-white top-5 left-5 text-xl p-5 absolute">You Successfully Donate <span className=" font-bold">${oneItem.price}</span></div>}
             <h1 onClick={handleGoBack} className="flex cursor-pointer items-center text-lg pt-3 "><HiArrowLongLeft className="text-xl mr-2" />Go back</h1>
             <div className="bgx overflow-hidden flex items-end h-[60vh] rounded-xl my-6" style={{ backgroundImage: `url(${oneItem.image})` }}>
