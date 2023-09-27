@@ -20,7 +20,7 @@ const AppNavbar = () => {
                     {!status ? <HiBars3BottomRight onClick={()=>{setStatus(!status)}} className=" cursor-pointer block md:hidden text-3xl"/>:<HiXMark onClick={()=>{setStatus(!status)}} className="block cursor-pointer md:hidden text-3xl"/> }
                     {status && 
 
-                    <nav className="p-3 z-50 rounded-xl px-6 absolute flex bg-gray-300 right-4 top-20 flex-col md:flex-row md:space-x-8 text-lg font-semibold">
+                    <nav className="p-3 z-50 rounded-xl px-6 absolute flex md:hidden bg-gray-300 right-4 top-20 flex-col md:flex-row md:space-x-8 text-lg font-semibold">
                         <NavLink to='/'>Home</NavLink>
                         <NavLink to='/donation'>Donation</NavLink>
                         <NavLink to='/statistics'>Statistics</NavLink>
