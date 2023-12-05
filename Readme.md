@@ -7,7 +7,7 @@
 ##  Questions
 
 
-# Add at least 3 Project features 
+# 3 main features of this project 
 
 -   ## React Router DOM :
     React router is one of the most powerful and most used feature. This feature show the actual power of React's Virtual DOM. React Router can route or navigate one page to another page or one UI to another UI without any loading! This is may be most powerful thing in React! I am very satisfied for having this feature! My full project is based on this feature! My home page, donation page, my statistics page is route on this feature! I can navigate one page to another page with using the NavLink component, and if i want ot pass the value from one page to another page i can use the most useful thing is loader and useLoaderData hook. This hook can store the shared data from page i came present page!
